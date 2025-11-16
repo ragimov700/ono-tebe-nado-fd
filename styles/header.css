@@ -24,8 +24,13 @@
 
 .header__logo {
     width: 148px;
-    height: 145px;
+    height: 105px;
     justify-content: center;
+}
+
+.header__logo-image {
+    width: 129px;
+    height: 105px;
 }
 
 .header__contacts {
