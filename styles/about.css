@@ -1,0 +1,44 @@
+.about {
+    padding: 120px 24px 0px 24px;
+}
+
+.about__column {
+    display: grid;
+    grid-template-columns: 336px 1fr;
+    gap: 10px 21px;
+}
+
+.about__logo {
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 35px;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__title {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.about__text {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 693px;
+}
