@@ -1,0 +1,1 @@
+https://github.com/ragimov700/ono-tebe-nado-fd.git
