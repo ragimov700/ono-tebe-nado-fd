@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    height: 596px;
+    min-height: 596px;
     width: 334px;
     background-position: center;
     background-size: cover;
