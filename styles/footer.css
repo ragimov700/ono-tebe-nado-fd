@@ -22,7 +22,7 @@ footer {
 
 .footer__menu {
   text-align: center;
-  margin-left: 40px;
+  margin-right: 60px;
 }
 
 .footer__menu-list-item {
@@ -32,17 +32,12 @@ footer {
   text-underline-offset: 4px;
 }
 
-.footer__address {
-  font-size: 18px;
-  text-underline-offset: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  font-style: normal;
-  width: 265px;
-}
-
 .footer__menu-link_active {
   text-decoration: none;
   list-style-type: none;
+}
+
+.footer__address {
+  max-width: 300px;
+  padding-right: 56px;
 }
